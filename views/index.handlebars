@@ -1,0 +1,12 @@
+<h1>Superheroes List</h1>
+<a href="/new-superhero">Add a New Superhero</a>
+
+<ul>
+    {{#each superheroes}}
+        <li>
+            <a href="/superhero/{{id}}">
+                <strong>{{heroName}}</strong>
+            </a> ({{realName}}) - Superpower: {{superpower}}, Origin: {{origin}}
+        </li>
+    {{/each}}
+</ul>

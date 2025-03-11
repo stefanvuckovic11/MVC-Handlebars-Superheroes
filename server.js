@@ -1,0 +1,19 @@
+var express = require('express');
+var exphbs = require('express-handlebars');
+var superheroRoutes = require('./routes/superheroRoutes');
+
+var app = express();
+var PORT = process.env.PORT || 3000;
+
+app.use(express.urlencoded({ extended: true }));
+
+app.engine('handlebars', exphbs.engine({ defaultLayout: 'main' }));
+app.set('view engine', 'handlebars');
+
+app.use(express.static('public'));
+
+app.use('/', superheroRoutes);
+
+app.listen(PORT, function() {
+    console.log('Server is running on http://localhost:' + PORT);
+});
