@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "antiheroName": "Vladatron",
+    "realName": "Vladan",
+    "power": "Strongest backhand of the company",
+    "origin": "Bijelo Polje (Beograd)",
+    "image": "/images/vladatron.jpg"
+
+  },
+  {
+    "id": 2,
+    "antiheroName": "Tuzi Eclipse",
+    "realName": "Andjela",
+    "power": "Not using curse words",
+    "origin": "Tuzi",
+    "image": "/images/tuzieclipse.jpg"
+
+  },
+  {
+    "id": 3,
+    "antiheroName": "BogyBeat (Bogi Batina)",
+    "realName": "Bogić",
+    "power": "Vladatron's meanness enhancer",
+    "origin": "Nikšić",
+    "image": "/images/bogybeat.jpg"
+  }
+]
